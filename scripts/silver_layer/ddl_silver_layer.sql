@@ -40,9 +40,9 @@ CREATE TABLE silver_crm_sales_details (
   sls_ord_num VARCHAR(20),          -- Sales order number
   sls_prd_key VARCHAR(20),          -- Product key
   sls_cust_id INT,                  -- Customer ID
-  sls_order_dt INT,                 -- Order date encoded as YYYYMMDD
-  sls_ship_dt INT,                  -- Ship date encoded as YYYYMMDD
-  sls_due_dt INT,                   -- Due date encoded as YYYYMMDD
+  sls_order_dt DATE,                 -- Order date encoded as YYYYMMDD
+  sls_ship_dt DATE,                  -- Ship date encoded as YYYYMMDD
+  sls_due_dt DATE,                   -- Due date encoded as YYYYMMDD
   sls_sales INT,                    -- Total sales amount (whole number)
   sls_quantity INT,                 -- Quantity sold
   sls_price INT,                     -- Unit price (whole number)
