@@ -17,8 +17,8 @@ CREATE TABLE silver_crm_cust_info (
   cst_key VARCHAR(15),               -- Alternate customer key
   cst_firstname VARCHAR(20),         -- First name
   cst_lastname VARCHAR(20),          -- Last name
-  cst_marital_status VARCHAR(1),     -- Marital status ('M', 'S', etc.)
-  cst_gndr VARCHAR(1),               -- Gender ('M', 'F', etc.)
+  cst_marital_status VARCHAR(10),     -- Marital status ('M', 'S', etc.)
+  cst_gndr VARCHAR(10),               -- Gender ('M', 'F', etc.)
   cst_create_date DATE,              -- Customer creation date
   dwh_create_date DATE DEFAULT (CURDATE()) -- Creation date 
 );
@@ -29,7 +29,7 @@ CREATE TABLE silver_crm_prd_info (
   prd_key VARCHAR(50),              -- Product key from source
   prd_nm VARCHAR(75),               -- Product name
   prd_cost INT,                     -- Product cost (whole number)
-  prd_line CHAR(1),                 -- Product line/category code
+  prd_line VARCHAR(10),             -- Product line/category code
   prd_start_dt DATETIME,           -- Product availability start date
   prd_end_dt DATETIME,              -- Product end-of-life date
   dwh_create_date DATE DEFAULT (CURDATE()) -- Creation date
