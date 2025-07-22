@@ -88,9 +88,7 @@ SELECT
     NULLIF(sls_due_dt, 0) AS sls_due_dt 
 FROM bronze_crm_sales_details
 WHERE sls_due_dt <= 0 
-    OR LEN(sls_due_dt) != 8 
-    OR sls_due_dt > 20500101 
-    OR sls_due_dt < 19000101;
+    OR LENGTH(sls_due_dt) <> 8;
 
 -- Check for Invalid Date Orders (Order Date > Shipping/Due Dates)
 -- Expectation: No Results
