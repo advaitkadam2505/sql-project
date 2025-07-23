@@ -1,3 +1,15 @@
+/*
+
+Creating the product dimension
+
+Purpose:
+	The gold layer of the DataWarehouse has the product dimension for which we have created a
+	view. We have introduced a surrogate key which holds no meaning in the data, it just serves
+	as an identification. We have also considered just the present data by eliminating the 
+	rows which has prd_end_dt as NOT NULL.
+
+*/
+
 CREATE VIEW gold_dim_products AS 
 SELECT 
 	ROW_NUMBER() OVER(Order by pi.prd_start_dt, pi.prd_key) as product_key,
