@@ -1,3 +1,15 @@
+/*
+
+Creating the customers dimension of the data.
+
+Purpose:
+	The script creates a view of the customer dimension which falls under the gold
+	layer of the DataWarehouse. We have assumed the CRM to be the master data and 
+	the gender if not available in the CRM is checked into the ERP.
+	Also the below script does the left join to ensure that no data is skipped
+
+*/
+
 CREATE VIEW gold_dim_customers AS
 SELECT 
 	ROW_NUMBER() OVER(Order by ci.cst_id) as customer_key,
