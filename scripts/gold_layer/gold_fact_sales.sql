@@ -1,3 +1,15 @@
+/*
+
+Creating the fact_sales view
+
+Purpose:
+  This script creates the view of the fact_sales which combines the product and customer
+  dimensions created in the gold layer of the DataWarehouse. The column names are adjusted 
+  so that we have names which are easily interpreted for the business reasons and decision
+  making for business problems.
+
+*/
+
 CREATE VIEW gold_fact_sales AS
 
 SELECT  
