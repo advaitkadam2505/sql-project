@@ -198,5 +198,17 @@ This project goes beyond basic data exploration to deliver business-relevant ins
 - **SQL** – Core ETL and analytics scripting  
 - **Medallion Architecture** – Bronze, Silver, Gold layer design  
 - **Star Schema** – For optimized reporting  
-- **GitHub** – Version control & documentation  
-- *(Optional tools: DB client like MySQL Workbench, DBeaver)*
+- **GitHub** – Version control & documentation
+- **draw.io** - Diagrams and models to showcase the flow and architecture 
+- **MySQL Workbench** - Used to write down the queries
+
+---
+
+## 🌟 About Me
+
+Hi there! I'm **Advait Kadam**. I’m an undergraduate at **Indian Institute of Technology Madras** with an exchange programme at **Karlsruhe Institute of Technology, Germany** in the department of Economics
+and Management. I’m deeply passionate about solving real-world business problems with data. My interests lie at the intersection of data analytics, finance, and innovation. Whether it's building KPI-driven SQL data pipelines, crafting analytical reports, or managing projects end-to-end — I love translating raw datasets into insights that truly matter.
+
+Let's stay in touch! Feel free to connect with me on LinkedIn:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/baraa-khatib-salkini](https://www.linkedin.com/in/advait-kadam-29aa91253/))
