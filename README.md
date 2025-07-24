@@ -76,7 +76,8 @@ For more details, refer to [docs/requirements.md](docs/requirements.md).
 
 ## 📂 Repository Structure
 ```
-├── datasets/ # Raw CSV data from CRM and ERP systems
+sql-project
+├── datasets/ 
 │ ├── CRM/
 │ │ ├── cust_info.csv
 │ │ ├── prd_info.csv
@@ -92,7 +93,7 @@ For more details, refer to [docs/requirements.md](docs/requirements.md).
 │ └── data_integration.png
 │
 ├── scripts/
-│ ├── Advanced Analytics/ # Business-focused insights and KPIs
+│ ├── Advanced Analytics/
 │ │ ├── cumulative_analysis.sql
 │ │ ├── customer_report.sql
 │ │ ├── data_segmentation.sql
@@ -100,24 +101,24 @@ For more details, refer to [docs/requirements.md](docs/requirements.md).
 │ │ ├── performance_analysis.sql
 │ │ ├── product_report.sql
 │ │ └── time_trends.sql
-│ ├── EDA/ # Exploratory Data Analysis
+│ ├── EDA/ 
 │ │ ├── dim_date_exploration.sql
 │ │ ├── dim_measure.sql
 │ │ ├── measure_report.sql
 │ │ ├── metadata_exploration.sql
 │ │ └── top_performers.sql
-│ ├── bronze_layer/ # Initial raw data ingestion (Bronze Layer)
+│ ├── bronze_layer/ 
 │ │ ├── ddl_bronze_layer.sql
 │ │ └── init_database.sql
-│ ├── silver_layer/ # Data cleaning and transformations (Silver Layer)
+│ ├── silver_layer/ 
 │ │ ├── data_cleansing.sql
 │ │ └── ddl_silver_layer.sql
-│ └── gold_layer/ # Final business-ready views (Gold Layer)
+│ └── gold_layer/ 
 │ ├── gold_dim_customers.sql
 │ ├── gold_dim_products.sql
 │ └── gold_fact_sales.sql
 │
-├── tests/ # Data quality checks for Silver and Gold layers
+├── tests/ 
 │ ├── quality_check_gold.sql
 │ └── quality_check_silver.sql
 │
