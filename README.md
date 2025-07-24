@@ -8,7 +8,7 @@ This project is a comprehensive end-to-end SQL-based data pipeline that unifies 
 
 ## 📌 Objective
 
-To design a scalable and analysis-ready SQL-based data pipeline that consolidates multi-source data, enables exploratory and advanced analytics, and produces KPI-driven insights to support data-informed decision-making.
+The objective of this project is to design and build a scalable, analysis-ready SQL-based data pipeline that brings together data from multiple source systems into a centralized warehouse. By consolidating customer and product data from CRM and ERP platforms, the pipeline ensures that information is clean, consistent, and structured for downstream use. It enables both exploratory analysis and advanced analytics, allowing stakeholders to uncover trends, segment customers, evaluate product performance, and generate meaningful insights. Through well-defined data transformations and robust reporting views, the project aims to deliver KPI-driven dashboards and metrics that empower teams to make data-informed decisions across marketing, sales, and operations.
 
 ---
 
