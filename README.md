@@ -20,7 +20,7 @@ This project adopts the **Medallion Architecture** (Bronze → Silver → Gold) 
 📁 **Silver Layer** – Cleaned and standardized data  
 📁 **Gold Layer** – Business-friendly dimensional views
 
-(docs/data_architecture.png)
+![Data Architecture](docs/data_architecture.png)
 
 ---
 
