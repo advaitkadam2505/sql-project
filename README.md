@@ -170,13 +170,26 @@ sql-project
 
 ## 🧠 Key Business Insights Delivered
 
-- 🎯 **Customer Segmentation**: Identify VIPs, Regulars, and New customers based on spend and engagement  
-- 📦 **Product Performance**: Spot top and underperforming products across time  
-- 📈 **KPI Monitoring**:
-  - Customer: Recency, AOV, Avg Monthly Spend  
-  - Product: Recency, AOR, Avg Monthly Revenue  
-- 🌍 **Category-Level Contribution**: Understand sales contribution per product category  
-- 📊 **Time Trend Analysis**: Track monthly performance and growth
+This project goes beyond basic data exploration to deliver business-relevant insights that can inform strategic decisions and drive growth across sales, marketing, and product teams. Each analysis is designed to highlight opportunities, identify gaps, and support actions that directly impact performance:
+
+- 🎯 **Customer Segmentation**: Classified customers into VIP, Regular, and New segments based on spending patterns and engagement history. This allows targeted retention strategies, loyalty programs, and personalized marketing campaigns.
+
+- 📦 **Product Performance Tracking**: Identified top-performing and underperforming products over time, helping the business optimize inventory, discontinue low-yield SKUs, and prioritize high-margin offerings.
+
+- 📈 **KPI Monitoring Framework**
+  Introduced key customer and product-level performance metrics to establish benchmarks:
+  - Customer KPIs:
+     - Recency (time since last order)
+     - Average Order Value (AOV)
+     - Average Monthly Spend
+  - Product KPIs:
+      - Recency (last sold date)
+      - Average Order Revenue (AOR)
+      - Average Monthly Revenue
+
+- 🌍 **Category-Level Sales Contribution**: Quantified the percentage contribution of each product category to total revenue, guiding category-level strategy and product assortment decisions.
+
+- 📊 **Time Trend Analysis**: Analyzed sales performance month over month to identify growth patterns, seasonal shifts, and opportunities for boosting revenue during low-performing periods.
 
 ---
 
