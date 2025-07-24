@@ -76,28 +76,52 @@ For more details, refer to [docs/requirements.md](docs/requirements.md).
 
 ## 📂 Repository Structure
 ```
-data-warehouse-project/
+├── datasets/ # Raw CSV data from CRM and ERP systems
+│ ├── CRM/
+│ │ ├── cust_info.csv
+│ │ ├── prd_info.csv
+│ │ └── sales_details.csv
+│ └── ERP/
+│ ├── CUST_AZ12.csv
+│ ├── LOC_A101.csv
+│ └── PX_CAT_G1V2.csv
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── docs/ # Architecture and flow diagrams
+│ ├── data_architecture.png
+│ ├── data_flow.png
+│ └── data_integration.png
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+├── scripts/
+│ ├── Advanced Analytics/ # Business-focused insights and KPIs
+│ │ ├── cumulative_analysis.sql
+│ │ ├── customer_report.sql
+│ │ ├── data_segmentation.sql
+│ │ ├── part_to_whole.sql
+│ │ ├── performance_analysis.sql
+│ │ ├── product_report.sql
+│ │ └── time_trends.sql
+│ ├── EDA/ # Exploratory Data Analysis
+│ │ ├── dim_date_exploration.sql
+│ │ ├── dim_measure.sql
+│ │ ├── measure_report.sql
+│ │ ├── metadata_exploration.sql
+│ │ └── top_performers.sql
+│ ├── bronze_layer/ # Initial raw data ingestion (Bronze Layer)
+│ │ ├── ddl_bronze_layer.sql
+│ │ └── init_database.sql
+│ ├── silver_layer/ # Data cleaning and transformations (Silver Layer)
+│ │ ├── data_cleansing.sql
+│ │ └── ddl_silver_layer.sql
+│ └── gold_layer/ # Final business-ready views (Gold Layer)
+│ ├── gold_dim_customers.sql
+│ ├── gold_dim_products.sql
+│ └── gold_fact_sales.sql
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+├── tests/ # Data quality checks for Silver and Gold layers
+│ ├── quality_check_gold.sql
+│ └── quality_check_silver.sql
 │
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
+├── LICENSE
+└── README.md
 ```
 ---
