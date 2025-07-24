@@ -211,4 +211,4 @@ and Management. I’m deeply passionate about solving real-world business proble
 
 Let's stay in touch! Feel free to connect with me on LinkedIn:
 
-[![LinkedIn]([https://linkedin.com/in/baraa-khatib-salkini](https://www.linkedin.com/in/advait-kadam-29aa91253/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/advait-kadam-29aa91253/)
