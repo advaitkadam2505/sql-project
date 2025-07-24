@@ -43,13 +43,13 @@ These datasets include customer records, product information, transactional sale
 ## 🔃 ETL Workflow
 
 ### 🔸 Bronze Layer
-- Schema creation: `bronze_layer/ddl_bronze_layer.sql`
 - Data load initialization: `bronze_layer/init_database.sql`
+- Schema creation: `bronze_layer/ddl_bronze_layer.sql`
 
 ### 🔸 Silver Layer
+- Schema creation: `silver_layer/ddl_silver_layer.sql`
 - Data cleansing & transformation: `silver_layer/data_cleansing.sql`
 - Enrichment and standardization (e.g., date parsing, null handling, sales calculations)
-- Schema creation: `silver_layer/ddl_silver_layer.sql`
 
 ### 🔸 Gold Layer
 - Final fact and dimension views for business users:
@@ -57,6 +57,7 @@ These datasets include customer records, product information, transactional sale
   - `gold_dim_customers.sql`
   - `gold_dim_products.sql`
 
+![Data Flow](docs/data_flow.png)
 > Relationships modeled using the **Star Schema** for optimal analytical querying.
 
 ---
